@@ -18,3 +18,14 @@ const cars = [
     },
   },
 ];
+
+function useCar(car) {
+  return [
+    car.model,
+    function () {
+      console.log(car.coloursByPopularity);
+    },
+  ];
+}
+
+export default cars;
