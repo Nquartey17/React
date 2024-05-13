@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
+  //first item is value, second is a function
   const [count, setCount] = useState(0);
 
   function increase() {
