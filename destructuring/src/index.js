@@ -2,14 +2,18 @@
 // import animals, { useAnimals } from "./data";
 // console.log(animals);
 
+// we are using [] to destruct an array
 // const [cat, dog] = animals;
 // console.log(cat);
 
+// Use {} to destruct an object
 //Object names must be the same as variable name, or rename them with :
 // const { name: catName, sound: catSound } = cat;
 
+// if name/sound is undefined, use values below
 // const { name = "Fluffy", sound = "Purr" } = cat;
 
+// : can also be used to destructure a nested object
 // const {
 //   name,
 //   sound,
